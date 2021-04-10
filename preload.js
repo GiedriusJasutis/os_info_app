@@ -64,19 +64,3 @@ window.addEventListener('DOMContentLoaded', () => {
     },
   });
 });
-
-// {
-//   "name": "os_info",
-//   "version": "1.0.0",
-//   "description": "os check",
-//   "main": "main.js",
-//   "scripts": {
-//     "start": "electron ."
-//   },
-//   "author": "",
-//   "license": "ISC",
-//   "dependencies": {
-//     "chart.js": "^3.0.2",
-//     "electron": "^12.0.2"
-//   }
-// }
