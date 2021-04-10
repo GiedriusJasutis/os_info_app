@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Os Info</title>
+  </head>
+  <body>
+    <h3><span id="os-hostname"></span></h3>
+    <div>
+      <p>Platform: <span id="os-platfom"></span></p>
+      <p>Architecture: <span id="os-arch"></span></p>
+      <p>Username: <span id="os-username"></span></p>
+      <p>Total Memory: <span id="os-totalmem"></span></p>
+      <p>Uptime: <span id="os-uptime"></span></p>
+      <p>Home Folder: <span id="os-homedir"></span></p>
+      <p>Temporary Folder: <span id="os-tmp"></span></p>
+    </div>
+
+    <h3>CPU clock speed</h3>
+    <canvas id="myChart" width="100" height="50"></canvas>
+  </body>
+</html>
